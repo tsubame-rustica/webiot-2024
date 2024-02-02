@@ -1,0 +1,6 @@
+[submodule "src/drobo_interfaces"]
+	path = src/drobo_interfaces
+	url = https://github.com/nityc-d-robo/drobo_interfaces.git
+[submodule "src/motor_lib"]
+	path = src/motor_lib
+	url = https://github.com/ezomo/motor_lib.git
