@@ -4,3 +4,9 @@
 [submodule "src/motor_lib"]
 	path = src/motor_lib
 	url = https://github.com/ezomo/motor_lib.git
+[submodule "src/mecanum_control"]
+	path = src/mecanum_control
+	url = https://github.com/ezomo/mecanum_control.git
+[submodule "src/webiot-2024_launch"]
+	path = src/webiot-2024_launch
+	url = https://github.com/ezomo/webiot-2024_launch.git
