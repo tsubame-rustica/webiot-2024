@@ -30,7 +30,7 @@ class MinimalPublisher(Node):
 
     def timer_callback(self):
 
-        data = {"power_x":0,"power_y":0,"revolution":-180}
+        data = {"power_x":0,"power_y":0,"revolution":-100}
         data = json.dumps(data, ensure_ascii=False, indent=2)
 
         msg = String()
