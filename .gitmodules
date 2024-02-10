@@ -10,3 +10,9 @@
 [submodule "src/webiot-2024_launch"]
 	path = src/webiot-2024_launch
 	url = https://github.com/ezomo/webiot-2024_launch.git
+[submodule "src/four-wheeled_control"]
+	path = src/four-wheeled_control
+	url = https://github.com/ezomo/four-wheeled_control.git
+[submodule "src/middleman"]
+	path = src/middleman
+	url = https://github.com/ezomo/middleman.git
