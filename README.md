@@ -4,6 +4,7 @@
 ## depends  
 - ros2 humble
 - python3-rpi.gpio
+- python3-smbus
 
 ### To start this project run　　
 
