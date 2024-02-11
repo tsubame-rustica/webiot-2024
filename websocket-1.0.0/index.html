@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Websocket Demo</title>
+</head>
+<body>
+  <!-- ==========ここからHTML本体========== -->
+  <!-- テキストフォームとボタン -->
+  <input type="button" value="GO" onclick="sendAction(0)">
+  <input type="button" value="STOP" onclick="sendAction(1)">
+  <form>
+    <input id="textMessage" type="text">
+    <input onclick="connect()" value="Connect" type="button">
+    <input onclick="sendMessage()" value="Send" type="button">
+    <input onclick="disconnect()" value="Disconnect" type="button">
+  </form>
+  <br />
+  <!-- テキスト出力エリア -->
+  <textarea id="messageTextArea" rows="10" cols="50"></textarea>
+
+  <script src="./main.js"></script>
+</body>
+</html>
